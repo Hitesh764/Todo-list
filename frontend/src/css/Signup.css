@@ -1,0 +1,98 @@
+.signup-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.signup-section{
+    width: 70vh;
+    padding: 2rem;
+    box-shadow: rgba(72, 72, 126, 0.2) 0px 7px 29px 0px;
+    gap: 2rem;
+    border-radius: 8px;
+    
+}
+
+.form-sec{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 2rem;
+}
+
+.input-form{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border: 1px solid #2B50A9B2;
+    border-radius: 8px;
+}
+
+.signup-btn{
+    cursor: pointer;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;
+    background: #2B50A9;
+}
+
+.ortag {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #868686;
+    font-size: 18px;
+    /* margin: 10px 0; */
+  }
+  
+  .ortag::before,
+  .ortag::after {
+    content: "";
+    flex: 1;
+    border-bottom: 2px solid #989898;
+    margin: 0 1rem;
+  }
+
+  .email-btn{
+    padding: 10px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #f9f9f9;
+    color: #555;
+    border: 2px solid #ddd;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.icon-img{
+    width: 30px;
+    height: 30px;
+}
+
+.email-btn:hover{
+    border: 2px solid #2B50A9;
+}
+
+.signup-link{
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+.pop-msg{
+    text-align: center;
+    padding: 8px;
+    color: #188038;
+    background: #ceead6;
+    margin-top: 1rem;
+}
+  
